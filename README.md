@@ -1,6 +1,6 @@
 # learn-css
 
-**\*Description**: css notes for future reference\*
+***Description**: css notes for future reference*
 
 ## References
 
