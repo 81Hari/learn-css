@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gird</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <main>
+
+        <h2>grid-auto-flow: column</h2>
+        <div class="container1">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        
+        <hr>
+        
+        <h2>grid-auto-flow: row</h2>
+        <div class="container2">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+
+        <hr>
+        
+        <h2>grid-template-column: absolute size </h2>
+        <div class="container3">
+            <div class="box">200px</div>
+            <div class="box">100px</div>
+            <div class="box">100px</div>
+            <div class="box">200px</div>
+            <div class="box">100px</div>
+            <div class="box">100px</div>
+        </div>
+        <hr>
+        <h2>grid-template-column: fractions</h2>
+        <div class="container4">
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">1fr</div>
+        </div>
+        <hr>
+        <h2>grid-template-column: repeat(3,1fr)</h2>
+        <div class="container5">
+            <div class="box">1fr</div>
+            <div class="box">1fr</div>
+            <div class="box">1fr</div>
+            <div class="box">1fr</div>
+            <div class="box">1fr</div>
+            <div class="box">1fr</div>
+            <div class="box">1fr</div>
+            <div class="box">1fr</div>
+            <div class="box">1fr</div>
+        </div>
+        <hr>
+        <h2>grid-template-column: repeat(3,1fr 2fr)</h2>
+        <div class="container6">
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+        </div>
+<hr>
+        <h2>grid-template-column: repeat(3,1fr 2fr) <br> grid-auto-rows: 200px</h2>
+        <div class="container7">
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+        </div>
+<hr>
+        <h2>grid-template-column: repeat(3,1fr 2fr) <br> grid-auto-rows: minmax(150px,auto)</h2>
+        <div class="container8">
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+        </div>
+    </main>
+    <hr>
+        <h2>row-gap <br> column-gap</h2>
+        <div class="container9">
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+            <div class="box">1fr</div>
+            <div class="box">2fr</div>
+        </div>
+
+        <hr>
+        <h2>Individual items</h2>
+        <div class="container10">
+            <div class="box1">1fr</div>
+            <div class="box1">2fr</div>
+            <div class="box1">1fr</div>
+            <div class="box1">2fr</div>
+            <div class="box1">1fr</div>
+            <div class="box1">2fr</div>
+            <div class="box1">1fr</div>
+            <div class="box1">2fr</div>
+            <div class="box1">1fr</div>
+            <div class="box1">2fr</div>
+            <div class="box1">1fr</div>
+            <div class="box1">2fr</div>
+        </div>
+
+        <h2>Combining boxes column wise</h2>
+        <div class="container10">
+            <div class="box2">1fr</div>
+            <div class="box2">2fr</div>
+            <div class="box2">1fr</div>
+            <div class="box2">2fr</div>
+            <div class="box2">1fr</div>
+            <div class="box2">2fr</div>
+            <div class="box2">1fr</div>
+            <div class="box2">2fr</div>
+            <div class="box2">1fr</div>
+            <div class="box2">2fr</div>
+            <div class="box2">1fr</div>
+            <div class="box2">2fr</div>
+        </div>
+
+        <h2>Combining boxes row wise</h2>
+        <div class="container10">
+            <div class="box3">1fr</div>
+            <div class="box3">2fr</div>
+            <div class="box3">1fr</div>
+            <div class="box3">2fr</div>
+            <div class="box3">1fr</div>
+            <div class="box3">2fr</div>
+            <div class="box3">1fr</div>
+            <div class="box3">2fr</div>
+            <div class="box3">1fr</div>
+            <div class="box3">2fr</div>
+            <div class="box3">1fr</div>
+            <div class="box3">2fr</div>
+        </div>
+
+
+        <h2>Combining boxes both row and column wise</h2>
+        <div class="container10">
+            <div class="box4">1fr</div>
+            <div class="box4">2fr</div>
+            <div class="box4">1fr</div>
+            <div class="box4">2fr</div>
+            <div class="box4">1fr</div>
+            <div class="box4">2fr</div>
+            <div class="box4">1fr</div>
+            <div class="box4">2fr</div>
+            <div class="box4">1fr</div>
+            <div class="box4">2fr</div>
+            <div class="box4">1fr</div>
+            <div class="box4">2fr</div>
+        </div>
+
+        <h2>Combining boxes both row and column wise using short hand</h2>
+        <div class="container10">
+            <div class="box5">1fr</div>
+            <div class="box5">2fr</div>
+            <div class="box5">1fr</div>
+            <div class="box5">2fr</div>
+            <div class="box5">1fr</div>
+            <div class="box5">2fr</div>
+            <div class="box5">1fr</div>
+            <div class="box5">2fr</div>
+            <div class="box5">1fr</div>
+            <div class="box5">2fr</div>
+            <div class="box5">1fr</div>
+            <div class="box5">2fr</div>
+        </div>
+
+        <h2>Implictly calculate allocate the spaces</h2>
+        <div class="container10">
+            <div class="box6">1</div>
+            <div class="box6">2</div>
+            <div class="box6">3</div>
+            <div class="box6">4</div>
+            <div class="box6">5</div>
+            <div class="box6">6</div>
+           
+        </div>
+
+        <h2>Nested Grid (Centering the content)</h2>
+        <div class="container10">
+            <div class="box7">1</div>
+            <div class="box7">2</div>
+            <div class="box7">3</div>
+            <div class="box7">4</div>
+            <div class="box7">5</div>
+            <div class="box7">6</div>
+           
+        </div>
+    </main>
+</body>
+</html>

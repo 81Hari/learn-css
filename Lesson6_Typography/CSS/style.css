@@ -1,0 +1,116 @@
+/*
+Typography is way that text is arranged and presented
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    text-decoration: none; 
+    /* Text decoration will be none at default but it is useful to remove underline from link */
+}
+
+.subcontainer1{
+    color: hsl(160,50%,50%);
+}
+
+.subcontainer2{
+    text-decoration: underline;
+}
+
+.subcontainer3{
+    text-decoration: overline;
+}
+
+.subcontainer4{
+    text-decoration: line-through;
+}
+.subcontainer5{
+    text-transform: capitalize;
+}
+.subcontainer6{
+    text-transform: lowercase;
+}
+.subcontainer7{
+    text-align: right;
+}
+.subcontainer8{
+    text-align: center;
+}
+.subcontainer9{
+    text-align: justify;
+}
+.subcontainer10{
+    text-indent: 2em;
+}
+.subcontainer11{
+    line-height: 1.8;
+}
+.subcontainer12{
+    letter-spacing: 3em;
+}
+.subcontainer13{
+    word-spacing: 3em;
+}
+
+.subcontainer14{
+    font-weight: 800; 
+    /* Boldness */
+}
+
+.subcontainer15{
+    font-style: italic; 
+}
+
+.subcontainer16{
+    font-style: oblique; 
+}
+
+.subcontainer17{
+    font-family: serif;
+    /* Popular in acedemics, Newspaper */
+     
+}
+.subcontainer18{
+    font-family: sans-serif;
+     /* Popular in web */
+}
+
+.subcontainer19{
+    font-family: monospace;
+     /* Old typewriter */
+}
+.subcontainer20{
+    font-family: cursive;
+}
+
+.subcontainer21{
+    font-family: fantasy;
+}
+.subcontainer22{
+    font-family: 'Courier New', Courier, monospace;
+}
+.subcontainer23{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subcontainer24{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.subcontainer25{
+    font-family:'Times New Roman', Times, serif
+}
+.subcontainer26{
+    font-family: 'Roboto', sans-serif;
+}
+.subcontainer27{
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+input, button{
+    font: inherit;
+} 
+

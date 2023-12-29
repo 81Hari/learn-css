@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Links</title>
+    
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Linking External Stylesheet-->
+
+
+</head>
+<body>
+    <header class="container">
+        <h1>CSS Styling Links</h1>
+    </header>
+    <main class="container">
+        <div>
+            <dl>
+                <p>
+                    <dt class="notAllowed"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor">cursor: not allowed</a></dt>
+
+                    <dd>When user keep the cursor over the link, the cursor changes it's symbol and that symbol semmantically indicates <strong>not allowed</strong></dd>
+                </p>
+                
+                <p>
+                    <dt class="visitedLink"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:visited">a:visited</a></dt>
+                    
+                    <dd>Link which is already visited and Using a concept called <strong>pseudo class</strong> (<code>a:visited{}</code>)to change styling for visited links. In our case i set it to purple color.</dd>
+                </p>
+                
+                <p>
+                    <dt class="hoverLink"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:hover">a:hover, a:focus</a></dt>
+                    <dd>Hovering is another state. So using <strong>pseudo class</strong> we can style that to. And  a:focus makes the link to change color even you use <code>tab</code> to navigate a page</dd>
+                </p>
+                
+                <p>
+                    <dt class="activeLink"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">a:active</a></dt>
+
+                    <dd>when you click and hold a link, it changes it's color</dd>
+
+                </p>
+                <p>
+                    <dt class="idea1"><a href="dummyPage1.html">Styling Link Idea-I</a></dt>
+                <dd>Keeping hsl value same for both except the hue .Only changing hue little in color wheel</dd>
+                </p>
+
+                <p>
+                    <dt class="idea2"><a href="dummyPage1.html">Styling Link Idea-II</a></dt>
+                <dd>Using opacity</dd>
+                </p>
+
+                
+            </dl>
+            
+        </div>
+    </main>
+</body>
+</html>

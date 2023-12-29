@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sri Hari" />
+    <meta
+      name="description"
+      content="The Official Website For Hotel Geo Park" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" type="text/CSS" />
+    <link rel="shortcut icon" href="img/html.webp" type="image/x-icon" />
+    <title>Hotel GeoPark</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__h1">Welcome to The Geo Park Hotel</h1>
+      <nav class="header__nav" aria-label="navbar">
+        <ul class="header__ul">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#room">Rooms</a>
+          </li>
+          <li>
+            <a href="#service">Services</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2 class="hero__h2">Bienvenidos!</h2>
+      <figure>
+        <img
+          src="img/Entrance.jpeg"
+          alt="entranceOfTheHotel"
+          title="entrance"
+          width="1280"
+          height="853" />
+        <figcaption class="off-screen">Geo Park Entrance</figcaption>
+      </figure>
+    </section>
+
+    <main class="main">
+      <article id="about" class="main__article about">
+        <h2>About Geo Park</h2>
+        <p>
+          Geo Park is founded in 2022. We hope our hotel is a
+          <strong>unique</strong> and <strong>peaceful</strong> place in our
+          Pudukkottai.
+        </p>
+        <aside class="about__trivia">
+          <h3>Hotel Trivia</h3>
+          <details>
+            <summary>Most Luxurious Hotel in the World ?</summary>
+            <p class="about__trivia-answer">Burj Al Arab, Dubai</p>
+          </details>
+        </aside>
+      </article>
+      <hr />
+      <article id="room" class="main__article">
+        <h2>Our Rooms</h2>
+        <ol>
+          <li>Double Room</li>
+          <li>Suite Room</li>
+        </ol>
+
+        <figure>
+          <img
+            src="img/DoubleRoom.jpg"
+            alt="pictureOfDoubleRoom"
+            title="Double Room"
+            width="300"
+            height="210" />
+          <figcaption>Double Room</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/Reception.jpeg"
+            alt="recptionOfTheHotel"
+            title="Recption"
+            width="300"
+            height="210" />
+          <figcaption>Reception</figcaption>
+        </figure>
+      </article>
+      <hr />
+      <article id="menu" class="main__article menu">
+        <h2 class="menu__h2">Our Service</h2>
+        <table class="menu__container">
+          <caption class="off-screen">
+            Our Tacos
+          </caption>
+          <thead>
+            <tr>
+              <th class="menu__header" scope="col">Name</th>
+              <th class="menu__header" scope="col">Quantity</th>
+              <th class="menu__header" scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="menu__item menu__cr" scope="row" rowspan="3">
+                Snacks
+              </th>
+              <td class="menu__item">1</td>
+              <td class="menu__item">$1.50</td>
+            </tr>
+            <tr>
+              <td class="menu__item">2</td>
+              <td class="menu__item">$2.50</td>
+            </tr>
+            <tr>
+              <td class="menu__item">3</td>
+              <td class="menu__item">$3.25</td>
+            </tr>
+            <tr>
+              <th class="menu__item menu__sf" scope="row" rowspan="3">Soft</th>
+              <td class="menu__item">1</td>
+              <td class="menu__item">$2.00</td>
+            </tr>
+            <tr>
+              <td class="menu__item">2</td>
+              <td class="menu__item">$3.50</td>
+            </tr>
+            <tr>
+              <td class="menu__item">3</td>
+              <td class="menu__item">$4.50</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td class="menu__item menu__cs" colspan="3">
+                Chips &amp; Salsa $2
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <p class="center">
+          <a href="#">Back To Top</a>
+        </p>
+      </article>
+    </main>
+    <footer class="footer">
+      <p>
+        <span class="no-wrap">Copyright &copy;</span>
+        <span class="no-wrap">Hotel GeoPark</span>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+.column1{
+    column-count: 4;
+}
+
+.column2{
+    column-count: 4;
+    column-width: 250px;
+    
+}
+
+.column3{
+    columns: 4 250px;
+    column-rule: 2px solid blueviolet;
+    column-gap: 2rem  ;
+}
+.column3 h2{
+    margin-top: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    break-inside: avoid  ;
+}
+.quote{
+    column-span: all;
+}
+.nowrap{
+    white-space: nowrap;
+}

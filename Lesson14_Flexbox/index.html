@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" ="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Flexbox</h1>
+        <nav>
+            <ol>
+                <li>
+                    justify-content:
+                    <ul>
+                        <li><a href="#container1">flex-start</a></li>
+                        <li><a href="#container2">flex-end</a></li>
+                        <li><a href="#container3">center</a></li>
+                        <li><a href="#container4">center with gap:1</a></li>
+                        <li><a href="#container5">space-around</a></li>
+                        <li><a href="#container6">space-between</a></li>
+                        <li><a href="#container7">space-evenly</a></li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    align-items
+                    <ul>
+                        <li><a href="#container8">flex-start</a></li>
+                        <li><a href="#container9">flex-end</a></li>
+                        <li><a href="#container10">center</a></li>
+                    </ul>
+                </li> 
+                <li>
+                    flex-direction
+                    <ul>
+                        <li><a href="#container11">column</a></li>
+                        <li><a href="#container12">column-reverse</a></li>
+                        <li><a href="#container13">row-reverse</a></li>
+                    </ul>
+                </li>   
+                <li>
+                    flex-wrap, till now we didn't use wrap (default value for flex-wrap is nowrap)
+                    <ul>
+                        <li><a href="#container14">wrap</a></li>
+                    </ul>
+                </li>
+                <li>
+                    flex-flow (short-hand for flex-direction and flex-wrap)
+                    <ul>
+                        <li><a href="#container15">flex-flow</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    align-content:
+                    <ul>
+                        <li><a href="#container16">flex-start</a></li>
+                        <li><a href="#container17">flex-end</a></li>
+                        <li><a href="#container18">center</a></li>
+                        <li><a href="#container19">space-around</a></li>
+                        <li><a href="#container20">space-between</a></li>
+                        <li><a href="#container21">space-evenly</a></li>
+                    </ul>
+                </li>
+            </ol>
+            
+
+        </nav>
+    </header>
+    <main>
+        <h2>justify-content:flex-start</h2>
+        <div id="container1">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+
+        <hr>
+
+        <h2>justify-content:flex-end</h2>
+        <div id="container2">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+
+        <hr>
+        
+        <h2>justify-content: center</h2>
+        <div id="container3">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+
+        <hr>
+        
+        <h2>justify-content: center <br> gap:1rem</h2>
+        <div id="container4">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        <hr>
+        <h2>justify-content: space-around</h2>
+        <div id="container5">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        <hr>
+        <h2>justify-content: space-between</h2>
+        <div id="container6">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        <hr>
+        <h2>justify-content: space-evenly</h2>
+        <div id="container7">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            
+        </div>
+        <hr>
+        <h2>align-element:flex-start</h2>
+        <div id="container8">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+        </div>
+
+        <hr>
+
+        <h2>align-element:flex-end</h2>
+        <div id="container9">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+        </div>
+
+        <hr>
+        
+        <h2>align-element: center</h2>
+        <div id="container10">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+        </div>
+        
+        <hr>
+        <h2>flex-direction: column</h2>
+        <div id="container11">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+        </div>
+
+        <hr>
+        <h2>flex-direction: column-reverse</h2>
+        <div id="container12">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+        </div>
+
+        <hr>
+        <h2>flex-direction: row-reverse</h2>
+        <div id="container13">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+        </div>
+
+        <hr>
+
+        <h2>flex-wrap: wrap</h2>
+        <div id="container14">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+        </div>
+
+        <hr>
+
+        <h2>flex-flow: row wrap (short-hand)</h2>
+        <div id="container15">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+        </div>
+
+        <hr>
+
+        <h2>align-content:flex-start</h2>
+        <div id="container16">
+            <div class="box1">1</div>
+            <div class="box1">2</div>
+            <div class="box1">3</div>
+            <div class="box1">4</div>
+            <div class="box1">5</div>
+            <div class="box1">6</div>
+        </div>
+
+        <hr>
+
+        <h2>align-content:flex-end</h2>
+        <div id="container17">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+
+        <hr>
+        
+        <h2>align-content: center</h2>
+        <div id="container18">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+
+        <hr>
+        
+        
+        <hr>
+        <h2>align-content: space-around</h2>
+        <div id="container19">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        <hr>
+        <h2>align-content: space-between</h2>
+        <div id="container20">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        <hr>
+        <h2>align-content: space-evenly</h2>
+        <div id="container21">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            
+        </div>
+
+        <hr>
+
+        <h2>Each inner container is flex and content inside container is centerly aligned</h2>
+        <div id="container22">
+            <div class="box2">1</div>
+            <div class="box2">2</div>
+            <div class="box2">3</div>
+            <div class="box2">4</div>
+            <div class="box2">5</div>
+            <div class="box2">6</div>
+            
+        </div>
+        
+        <h2>Flex-basis </h2>
+        <div id="container22">
+            <div class="box3">1</div>
+            <div class="box3">2</div>
+            
+        </div> 
+        
+        <h2>Flex-grow (Both grows evenly to fill the emepty space</h2>
+        <div id="container22">
+            <div class="box4">1</div>
+            <div class="box4">2</div>
+            
+        </div> 
+
+        <h2>Flex-grow (For every 1 unit taken by div1, div2 takes 2 unit) </h2>
+        <div id="container22">
+            <div class="box5">1</div>
+            <div class="box5">2</div>
+            
+        </div>
+        
+        <h2>Flex-shrink (For every 1 unit taken by div1, div2 takes 2 unit) </h2>
+        <div id="container23">
+            <div class="box6">1</div>
+            <div class="box6">2</div>
+            
+        </div>
+
+        <h2>Order</h2>
+        <div id="container24">
+            <div class="box8">1</div>
+            <div class="box8">2</div>
+            <div class="box8">3</div>
+            <div class="box8">4</div>
+            <div class="box8">5</div>
+            <div class="box8">6</div>
+        </div>
+    </main>
+            
+</body>
+</html>

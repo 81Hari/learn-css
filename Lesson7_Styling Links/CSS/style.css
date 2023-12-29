@@ -1,0 +1,55 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.notAllowed a {
+    cursor: not-allowed;
+    color: hsl(0,60%,60%);
+}
+
+.visitedLink a {
+    cursor: pointer;
+    color: hsl(180, 80%, 60%);
+}
+
+.visitedLink a:visited {
+    color: purple;
+}
+
+.hoverLink a{
+    color: hsl(240, 100%, 50%);
+}
+
+.hoverLink a:hover {
+    color: hsl(120,50%,50%);
+}
+
+.hoverLink a:focus {
+    color: hsl(120,50%,50%);
+}
+
+.activeLink a:active {
+    color: hsl(39, 100%, 50%);
+}
+
+.idea1 a{
+    color: hsl(207, 44%, 49%);
+}
+
+.idea1 a:hover{
+    color: hsl(180, 44%, 49%);   
+}
+
+.idea2 a{
+    color: hsl(207, 44%, 49%);
+}
+
+.idea2 a:hover{
+    opacity: 0.8;  
+}

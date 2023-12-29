@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Linking External Stylesheet-->
+
+</head>
+<body>
+    <header>
+        <h1>CSS Units</h1>
+    </header>
+    <main>
+        <article id="a1">
+            <h2>Consequence of inheritance explained using &lt;h1&gt; and &lt; header&gt;</h2>
+            <p id="p1">Header has only 50%width and the h1 element is inside header so it has access only to it's parents area.But we declared h1 has only 50% access from it's parent. So in total it has only 25% access to total width (So the border is to small and font size is to big becasuse we used <code>em</code> in place of <code>rem</code>. So instead relative to the root it is relative to the parent.
+            And it's only true for font-size Other than font-size it takes font size of the element itself(Margin for the border oh H1)</p>
+        </article>
+        <article id="a2">
+            <h2>Width is 50% so the border is cut down to half</h2>
+            <p id="p2" class="gray">
+                There is a another property called <code>ch</code> which used to limit character in the line.You can clear we have only 20 charcter in the line for the current paragraph. 
+            </p>
+        </article>
+        <article id="a3">
+            <h2>Absolute Size</h2>
+            <p id="p3" class="gray">Font size is fixed so the browser can't change the size of the font.</p>
+        </article>
+    </main>
+</body>
+</html>

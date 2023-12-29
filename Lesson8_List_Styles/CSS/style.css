@@ -1,0 +1,80 @@
+body{
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.alphabets ol{
+    list-style-type: lower-alpha;
+}
+
+.geor ol{
+    list-style-type: georgian;
+}
+
+.decimal ol{
+    list-style-type: decimal; 
+    /* default */
+}
+
+.decimalLead ol{
+    list-style-type: decimal-leading-zero;
+}
+
+.disc ol {
+    list-style-type: disc;
+}
+
+.circle ol {
+    list-style-type: circle;
+}
+
+.upperRoman ol{
+    list-style-type: upper-roman;
+}
+
+.none ol{
+    list-style-type: none;
+    padding: 0%;
+}
+
+.square ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: outside;
+    color: blue;
+    line-height: 1.6;
+    
+}
+
+.image ul{
+    list-style-image: url('../Image/cp1.png');
+}
+
+.liststyle ul{
+    list-style: disc url('../Image/cp1.png') inside;
+}
+
+.li li:nth-child(2){
+    color: brown;
+}
+
+.li li:nth-child(odd){
+    color: green;
+}
+
+/* pseudo element */
+
+.pelement ::marker{
+    color: hsl(0,95%,60%);
+    font-size: 1em;
+    content: "Note >>";
+}
+
+.value ol{
+    list-style-type: lower-alpha;
+}

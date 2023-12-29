@@ -1,0 +1,70 @@
+/* Universal Selector */
+html{
+    font-size: 22px; /* This will be inherited*/
+    border: 3px black; /* This will not be inherited*/
+}
+
+/* element selector */
+body {
+    margin: 10px;
+}
+main{
+    font-family: monospace;
+}
+
+p{
+    color: purple;
+}
+
+/* Group Selector */
+h1, h2{
+    color: blue;
+}
+
+/* 
+
+What happens if we don’t use commas between h1 and h2?
+
+h1 h2{
+    color: blue;
+} 
+
+ Then the CSS will search for h2 inside h1 (nested)
+
+ */
+
+/* 
+ Nested selector
+ p span {
+    text-transform: uppercase;
+    background-color: gold;
+ } */
+
+
+/* class selector */
+.gray {
+    color: gray;
+
+}
+
+/* ID selector */
+#p2 {
+    font-style: italic;
+}
+
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* Inheritance by force*/
+button, input, textarea, select{
+	font:inherit
+}
+
+/* 
+p{
+    color: aqua !important;
+}
+!important will override every other styling
+ */

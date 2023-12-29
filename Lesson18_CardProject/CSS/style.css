@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 1.5rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, main, footer{
+    display: grid;
+    grid-template-columns: 100%;
+    place-content: center;
+    text-align: center;
+    color: #F0EFF4;
+}
+
+header{
+    background-color: hsl(334, 54%, 22%);
+}
+
+nav{
+    background-color: hsl(334, 27%, 49%);
+}
+
+nav ul{
+    display: flex;
+    padding: 0.25em;
+    
+}
+
+nav li {
+    padding: 1em;
+    list-style-type: none;
+    flex-basis: 25%;
+}
+
+nav li a{
+    color:#F0EFF4;
+    text-decoration: none;
+}
+
+main{
+    background-color: #0F1A20;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    padding: 1em;
+    background-color: #30343F;;
+}
+.con-1,.con-2,.con-3, .con-4{
+    place-content: center;
+    margin: 1em;
+    background-color: #F0EFF4;
+    flex-grow: 1;
+    flex-basis: 65vh;
+}
+
+.con-1{
+    background-image: url("../img/Luffy.jpg") ;
+}
+
+.con-2{
+    background-image: url("../img/Zoro.jpg") ;
+}
+
+.con-3{
+    background-image: url("../img/Sanji.jpg") ;
+}
+
+.con-4{
+    background-image: url("../img/Nami.jpg") ;
+}
+
+.subcon{
+    display: grid;
+    place-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.878);
+}
+
+figure img{
+    border: 3px double #F0EFF4;;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+figcaption {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.con-1 p{
+    color:#F42C04;
+    font-weight: 300;
+}
+
+.con-2 p{
+    color:hsl(300, 68%, 55%);
+    font-weight: 300;
+}
+
+.con-3 p{
+    color:hsl(41, 80%, 51%);
+    font-weight: 300;
+}
+
+.con-4 p{
+    color:hsl(195, 67%, 40%);
+    font-weight: 300;
+}
+
+@media screen and (min-width:768px) {
+    
+    main{
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+    }
+
+    
+}
+
+@media screen and (min-width:1200px) {
+    header{
+        display: none;
+    }
+    main{
+        flex-wrap: wrap;
+    }
+
+    
+}

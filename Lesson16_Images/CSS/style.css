@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+/* Begin Reset*/
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*End Reset*/
+body {
+    font-family: "Nunito",sans-serif;
+    min-height: 100vh;
+}
+
+
+.block-inline{
+    margin: 1em;
+    padding: 1em;
+    border-bottom: 3px solid black;
+}
+ 
+.example{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+.example img{
+    width: 25%;
+     /* Note it is 25% of container not the image*/
+    height: auto; 
+    /* when we set width and height in html and overiding it in css. it is recommended to override both rather than one.*/
+
+}
+
+.example1{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+.example1 img{
+    display: block;
+    width: 25%;
+     /* Note it is 25% of container not the image*/
+    height: auto; 
+    /* when we set width and height in html and overiding it in css. it is recommended to override both rather than one.*/
+
+}
+
+.profile-pic{
+    padding: 1em;
+    margin: 1em;
+    border-bottom: 3px solid black;
+}
+.profile-pic-square{
+    width: 25%;
+}
+
+.profile-pic-square img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double black;
+}

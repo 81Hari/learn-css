@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#p3{
+    font-size: 16px;
+}
+
+header{
+    width: 50%;
+}
+main{
+    width: 20vw;
+    background: skyblue;
+}
+h1{
+    border: 2px dashed hsl(129,45%,45%);
+    width: 50%;
+    font-size: 3rem;
+    margin: 0.5em;
+    padding: 0.5em;
+} 
+/* header as only 50% of width. So h1 takes 50% from header which means 25% in total.  */
+
+
+#a3 h2{
+    border: 2px dashed hsl(276, 45%, 45%);
+}
+
+#a2 h2{
+    border: 2px dashed hsl(0,50%,50%);
+    width: 50%;
+}
+
+#p2{
+    font-size: 2rem;
+    width: 20ch;
+}
+
+#a1{
+    font-size: 2rem;
+}
+
+
+#p1{
+    font-size: 2em;
+}
+/* id a1 looking at root element and p1 is looking at parent(a1). so p1 takes 2 times size of a1. p1 a1*2  */
+
+
+
